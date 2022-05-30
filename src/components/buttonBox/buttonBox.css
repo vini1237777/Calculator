@@ -1,0 +1,105 @@
+.buttonBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5px;
+  width: 100%;
+  height: calc(100% - 100px);
+  border-radius: 20px;
+  background-color: black;
+}
+.item0:hover,
+.item1:hover,
+.item2:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item8:hover,
+.item9:hover,
+.item10:hover,
+.item12:hover,
+.item13:hover {
+  background-color: rgb(34, 193, 71);
+  transform: scale(0.8);
+}
+
+.item7:hover,
+.item11:hover,
+.item15:hover {
+  background-color: aqua;
+  transform: scale(0.8);
+}
+
+.item3:hover,
+.item14:hover {
+  background-color: red;
+  transform: scale(0.8);
+}
+
+.item0,
+.item1,
+.item2,
+.item4,
+.item5,
+.item6,
+.item8,
+.item9,
+.item10,
+.item12,
+.item13 {
+  background-color: rgb(182, 168, 168);
+  margin: 5px 5px 5px 5px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(130, 130, 132);
+  color: rgb(255, 255, 255);
+  cursor: grab;
+  border-radius: 10px;
+  outline: none;
+}
+
+.item7,
+.item11,
+.item15 {
+  background-color: aqua;
+  margin: 5px 5px 5px 5px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: grab;
+  border-radius: 10px;
+  outline: none;
+}
+.item3 {
+  background-color: red;
+  margin: 5px 5px 5px 5px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: grab;
+  border-radius: 10px;
+  outline: none;
+}
+.item14 {
+  background-color: red;
+  margin: 5px 5px 5px 5px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: grab;
+
+  border-radius: 10px;
+  outline: none;
+}
