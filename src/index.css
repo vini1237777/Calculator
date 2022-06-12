@@ -12,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   align-items: center;
   justify-content: center;
+  background-color: pink;
 }
 
 code {
@@ -19,7 +20,7 @@ code {
     monospace;
 }
 
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: pink;
   }

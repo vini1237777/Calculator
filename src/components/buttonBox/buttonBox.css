@@ -17,21 +17,28 @@
 .item8:hover,
 .item9:hover,
 .item10:hover,
-.item12:hover,
-.item13:hover {
+.item12:hover {
   background-color: rgb(34, 193, 71);
+  transform: scale(0.8);
+}
+
+.item13:hover {
+  background-color: darksalmon;
   transform: scale(0.8);
 }
 
 .item7:hover,
 .item11:hover,
-.item15:hover {
+.item15:hover,
+.item3:hover,
+.item19:hover,
+.item14:hover {
   background-color: aqua;
   transform: scale(0.8);
 }
 
-.item3:hover,
-.item14:hover {
+.item16:hover,
+.item3:hover {
   background-color: red;
   transform: scale(0.8);
 }
@@ -39,6 +46,7 @@
 .item0,
 .item1,
 .item2,
+.item3,
 .item4,
 .item5,
 .item6,
@@ -54,16 +62,17 @@
   font-size: 40px;
   font-weight: bold;
   border: none;
-  background-color: rgb(130, 130, 132);
   color: rgb(255, 255, 255);
   cursor: grab;
   border-radius: 10px;
   outline: none;
 }
-
 .item7,
 .item11,
-.item15 {
+.item15,
+.item18,
+.item19,
+.item14 {
   background-color: aqua;
   margin: 5px 5px 5px 5px;
   border-radius: 20px;
@@ -76,6 +85,9 @@
   border-radius: 10px;
   outline: none;
 }
+
+.item16,
+.item17,
 .item3 {
   background-color: red;
   margin: 5px 5px 5px 5px;
@@ -86,20 +98,6 @@
   border: none;
   color: rgb(255, 255, 255);
   cursor: grab;
-  border-radius: 10px;
-  outline: none;
-}
-.item14 {
-  background-color: red;
-  margin: 5px 5px 5px 5px;
-  border-radius: 20px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  border: none;
-  color: rgb(255, 255, 255);
-  cursor: grab;
-
   border-radius: 10px;
   outline: none;
 }
