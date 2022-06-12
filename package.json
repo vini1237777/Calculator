@@ -1,8 +1,8 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://vini1237777.github.io/Calculator-hooks",
+  "private": false,
+  "homepage": "https://vini1237777.github.io/",
   "dependencies": {
     "@mui/material": "^5.8.1",
     "@mui/styled-engine-sc": "^5.8.0",
